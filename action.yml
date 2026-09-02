@@ -1,0 +1,8 @@
+name: "elden-ring-shadow-erdtree-trainer"
+description: 'Automation action'
+inputs:
+  token:
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

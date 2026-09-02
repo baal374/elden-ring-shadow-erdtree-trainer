@@ -1,0 +1,14 @@
+*.map linguist-generated
+
+docs/*.html linguist-vendored
+
+*.min.js linguist-generated
+node_modules/* linguist-vendored
+docs/* linguist-vendored
+
+src/**/*.tsx linguist-detectable
+
+*.sh text eol=lf 
+build/* linguist-vendored
+*.woff binary
+*.json linguist-detectable=false
